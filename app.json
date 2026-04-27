@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Smart Udhar – Loan Tracker & Reminder",
+    "slug": "smart-udhaar",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "smartudhaar",
+    "icon": "./assets/icon.png",
+    "assetBundlePatterns": ["**/*"],
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    "ios": {
+      "bundleIdentifier": "com.udhaartracker.app",
+      "buildNumber": "1.0.1",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.udhaartracker.app",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f172a"
+      },
+      "permissions": ["POST_NOTIFICATIONS"],
+      "blockedPermissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.SYSTEM_ALERT_WINDOW"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#2563eb"
+        }
+      ]
+    ],
+    "extra": {
+      "supportEmail": "amirmukhtar001@gmail.com",
+      "privacyPolicyUrl": "https://amirmukhtar001.github.io/udhaar-tracker/privacy-policy.html",
+      "accountDeletionUrl": "https://amirmukhtar001.github.io/udhaar-tracker/account-deletion.html"
+    }
+  }
+}
