@@ -109,9 +109,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.udhaartracker.app'
+    namespace 'com.splitmate.app'
     defaultConfig {
-        applicationId 'com.udhaartracker.app'
+        applicationId 'com.splitmate.app'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 2

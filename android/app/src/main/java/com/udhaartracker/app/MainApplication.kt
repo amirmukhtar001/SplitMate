@@ -1,4 +1,4 @@
-package com.udhaartracker.app
+package com.splitmate.app
 
 import android.app.Application
 import android.content.res.Configuration

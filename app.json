@@ -14,12 +14,12 @@
       "backgroundColor": "#0f172a"
     },
     "ios": {
-      "bundleIdentifier": "com.udhaartracker.app",
+      "bundleIdentifier": "com.splitmate.app",
       "buildNumber": "1.0.1",
       "supportsTablet": false
     },
     "android": {
-      "package": "com.udhaartracker.app",
+      "package": "com.splitmate.app",
       "versionCode": 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
