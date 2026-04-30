@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Smart Udhar – Loan Tracker & Reminder",
-    "slug": "smart-udhaar",
+    "name": "SplitMate Expense Splitter Bill Sharing",
+    "slug": "splitmate-expense-splitter-bill-sharing",
     "version": "1.0.1",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "scheme": "smartudhaar",
+    "scheme": "splitmate",
     "icon": "./assets/icon.png",
     "assetBundlePatterns": ["**/*"],
     "splash": {
