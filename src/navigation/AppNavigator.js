@@ -11,6 +11,7 @@ import LanguageSelectScreen from "../screens/LanguageSelectScreen";
 import { useLanguage } from "../context/LanguageContext";
 import { useAuth } from "../context/AuthContext";
 import PhoneAuthScreen from "../screens/PhoneAuthScreen";
+import ActivityScreen from "../screens/ActivityScreen";
 
 const RootStack = createNativeStackNavigator();
 
@@ -44,6 +45,7 @@ export default function AppNavigator() {
         ) : (
           <>
             <RootStack.Screen name="Home" component={GroupsScreen} options={{ title: "SplitMate" }} />
+            <RootStack.Screen name="Activity" component={ActivityScreen} options={{ title: "Activity" }} />
             <RootStack.Screen name="CreateGroup" component={CreateGroupScreen} options={{ title: "Create Group" }} />
             <RootStack.Screen name="GroupDetail" component={GroupDetailScreen} options={{ title: "Group Detail" }} />
             <RootStack.Screen name="AddExpense" component={AddExpenseScreen} options={{ title: "Add Expense" }} />

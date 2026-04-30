@@ -44,7 +44,7 @@ if (getRNMinorVersion() >= 75) {
   }
 }
 
-rootProject.name = 'Smart Udhaar'
+rootProject.name = 'SplitMate Expense Split'
 
 dependencyResolutionManagement {
   versionCatalogs {
